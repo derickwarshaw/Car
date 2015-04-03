@@ -1,0 +1,32 @@
+Derick Warshaw // Lab 9 // 1337
+
+
+
+Car
+----------------
+-year:int
+-model:String
+-make:String
+-speed:int
+-direction:String
+-north:String
+-south:String
+-east:String
+-west:String
+-accelerate:int
+-brake:int
+----------------
++Car(inputYear:int, inputModel:String, inputMake:String)
++Car()
++getYear():int
++getMake():String
++getModel():String
++getSpeed():int
++getDirection():String
+-yearValidation(data:int):int
+-speedValidation(theSpeed:int):void
++accelerate():void
++brake():void
++currentSpeed():void
++rightTurn():void
++leftTurn():void
